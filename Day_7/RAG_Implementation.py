@@ -194,7 +194,7 @@ test_vector_search()
 This approach uses HuggingFace's cloud API for LLM generation. Requires API token authentication.
 # Set your HuggingFace API token here
 # Get your free token from: https://huggingface.co/settings/tokens
-os.environ["HUGGINGFACE_API_KEY"] = "your_token_here"  # Replace with your actual token
+os.environ["HUGGINGFACE_API_KEY"] = "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"  # this is Sunil kandi hugging face token id
 
 def create_query_engine(vector_store, embed_model, llm=None):
     """
